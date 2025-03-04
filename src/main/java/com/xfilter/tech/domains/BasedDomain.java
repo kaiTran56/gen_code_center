@@ -20,4 +20,5 @@ public abstract class BasedDomain<T> {
     private String updatedUser = CommonConstant.APP_CODE;
     private String actionCode = CommonActCode.CALL_HELLO_WORLD.getCode();
     private String actionResult = CommonActCode.CALL_REQUEST_SUCCESS.getCode();
+    private String appCode = CommonConstant.APP_CODE;
 }
