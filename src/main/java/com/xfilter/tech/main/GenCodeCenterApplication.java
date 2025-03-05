@@ -22,7 +22,7 @@ public class GenCodeCenterApplication implements CommandLineRunner {
         return new AppContextCenter();
     }
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) {
         log.info("GenCodeCenterApplication|HelloWorld");
         System.out.println(CommonFunction.getGreetingConsole());
     }

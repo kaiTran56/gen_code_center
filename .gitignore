@@ -37,3 +37,6 @@ mvnw.cmd
 .gitattributes
 .mvn
 mvnw
+logs
+app.log
+target
