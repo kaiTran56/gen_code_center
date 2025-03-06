@@ -46,3 +46,6 @@ jenkins-blueocean:v1
 ------------ make url connect from local jenkins to git
 #!/bin/bash
 nohup ssh -R 80:192.168.1.205:8080 serveo.net > ssh_tunnel.log 2>&1 &
+
+
+---------------- TO THE WORLD -----------------
